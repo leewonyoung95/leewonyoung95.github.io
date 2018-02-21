@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset="utf-8">
+  <title>ITMD 361: Fundamentals of Web Development WonyoungLee</title>
+</head>
+<body>
+    <form action = "http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
+    <h1>Volunteer Form</h1>
+<div style="border:2px solid; padding:5px;">
+    <h4><strong>My Info</strong></h4>
+    <div class="FirstName">
+      <label>First Name: <input type="text" name="first_name_field"></label>
+    </div>
+    <div class="LastName">
+      <label>Last Name: <input type="text" name="last_name_field"></label>
+    </div>
+    <div class="Phone Number">
+      <label>Phone Number: <input type="text" name="phone_field"></label>
+    </div>
+    <div class="Email Address">
+      <label>Email Address: <input type="text" name="email_field"></label>
+    </div>
+    <div class="Gender">
+	  <label>Gender:</label>
+	  <input type="radio" name="gender_field" value = "Male">Male
+      <input type="radio" name="gender_field" value = "Female">Female
+	  </div>
+      <label>Age:
+        <select name = "age_field">
+          <option value="under 18">under 18</option>
+          <option value="18-24">18-24</option>
+          <option value="25-34">25-34</option>
+          <option value="35-44">35-44</option>
+          <option value="45-54">45-54</option>
+          <option value="55-64">55-64</option>
+          <option value="65 and over">65 and over</option>
+        </select>
+      </label><br/>
+</div>
+    <h4><strong>My Availablity</strong></h4>
+  <div style="border:2px solid; padding:5px;">
+    <div>
+      <div>
+        <label for = "available_field">Days Availability:</label>
+      </div>
+      <div>
+          <input type="checkbox" id="available_field[]" value="Sunday">
+          <label>Sunday</label>
+      </div>
+      <div>
+          <input type="checkbox" id="available_field[]" vlaue="Monday">
+          <label>Monday</label>
+      </div>
+      <div>
+        <input type="checkbox" id="available_field[]" value="Tuesday">
+        <label>Tuesday</label>
+      </div>
+      <div>
+        <input type="checkbox" id="available_field[]" value="Wednesday">
+        <label>Wednesday</label>
+      </div>
+      <div>
+        <input type="checkbox" id="available_field[]" value = "Thursday">
+        <label>Thursday</label>
+      </div>
+      <div>
+        <input type="checkbox" id="available_field[]" value ="Friday">
+        <label>Friday</label>
+      </div>
+      <div>
+      <input type="checkbox" id="available_field[]" value ="Saturday">
+      <label>Saturday</label>
+      </div>
+	  </div>
+    <div class="Any comments">
+      <label>Any Comment?</label>
+    </div>
+        <textarea name="comments_field" rows="10" cols="35"></textarea>
+        <input type = "hidden" name = "hidden_field" value="wlee36">
+    </div>
+		<input type = "submit" value="Send Me">
+  </form>
+</body>
+</html>
