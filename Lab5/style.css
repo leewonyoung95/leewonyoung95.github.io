@@ -1,0 +1,51 @@
+body{
+  background-image:url(image/milkyway.jpg);
+
+}
+
+#title{
+  color:white;
+  text-align: center;
+  font-style: italic;
+
+}
+.img{
+  width: 75%;
+
+}
+
+table{
+  table-layout: fixed;
+  border-collapse: collapse;
+  background-color: rgba( 255, 255, 255, 0.05 );
+}
+
+th,td{
+  color:white;
+  text-align: center;
+}
+
+.head{
+    text-shadow: 0 0 10px #fff,
+         0 0 20px #fff,
+         0 0 30px #fff,
+         0 0 40px #ff00de,
+         0 0 70px #ff00de,
+         0 0 80px #ff00de,
+         0 0 100px #ff00de,
+         0 0 150px #ff00de;
+}
+
+.charac{
+  text-shadow : 6px 6px 5px #ff00de;
+}
+
+.earth,.jupiter{
+  color:white;
+  text-shadow : 6px 6px 5px #FFFFFF;
+}
+
+.venus,.uranus{
+  color:white;
+  text-shadow : 6px 6px 5px #D9E5FF;
+}
