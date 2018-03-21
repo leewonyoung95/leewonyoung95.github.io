@@ -29,7 +29,7 @@ video{
   display: flex;
 }
 
-#hrstyle{
+.hrstyle{
   width:500px;
   color:gray;
   border:thin solid gray;
@@ -78,7 +78,7 @@ h2{
   text-align: center;
   font-size: 30px
 }
-#centerimg img, video, h5{
+.centerimg img, video, h5{
   display: block;
     margin-left: auto;
     margin-right: auto;
