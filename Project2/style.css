@@ -48,7 +48,7 @@ video{
 
 .right{
   width: 50%;
-  margin left: 0px;
+  margin-left: 0px;
 	float:left;
 }
 
@@ -86,7 +86,7 @@ h2{
 
 #square{
   margin:3em 0;
-  padding-top: 20px
+  padding-top: 20px;
   width:100%;
   display: flex;
   flex-flow: row wrap;
@@ -116,14 +116,14 @@ p {
 	font-weight: 400;
 	line-height: 1.5em;
 }
-*/
+
 ul li{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
-}
+	}
 
 /*style for horizontal nav */
 
