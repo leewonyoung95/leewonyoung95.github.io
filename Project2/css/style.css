@@ -52,10 +52,16 @@ video{
 	display: flex;
 }
 
+#resume{
+	background-color: lightgray;
+}
+.skills li{
+	padding : 0.5em;
+}
+
 .resumebackground{
 	background-color: lightgray;
 	display: block;
-	width:1520px;
 }
 
 .resumebackground h1,h2{
@@ -76,7 +82,7 @@ video{
 	border:thin solid gray;
 
 }
-.Info, .education, .experience{
+.info, .education, .experience{
 	margin-left: 30px;
 	margin-right: 30px;
 }
@@ -122,7 +128,6 @@ h2{
 	margin-right: auto;
 	width: 40%;
 }
-
 
 .square{
 	margin:3em 0;
