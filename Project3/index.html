@@ -25,6 +25,24 @@
   <p>Here is my favorite songs</p>
   <h4>title : downtownbaby</h4>
   <audio src="song/downtownbaby.mp3" controls autoplay loop></audio>
+  <h3>My Map</h3>
+  <div id = "map"></div>
+  <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjT7uCgwzbcP1GR6M5dEbD54IFJzRs_G8&callback=initMap">
+    </script>
   <h3>Foods</h3>
   <hr id="hrstyle">
   <section class="foods">
